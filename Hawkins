@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WikiHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+<center><img src="https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png"></center>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://www.wikipedia.org">Main Page</a></li>
+                <li><a href="#">Contents</a></li>
+                <li><a href="#">Current Events</a></li>
+                <li><a href="#">Random Article</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sidebar Section -->
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="#">Navigation</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Toolbox</a></li>
+                <li><a href="#">Languages</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Article Section -->
+        <section class="article">
+            <h1>Article Title</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+        </section>
+
+        <!-- Categories Section -->
+        <section class="categories">
+            <h2>Categories</h2>
+            <ul>
+                <li><a href="#">Category 1</a></li>
+                <li><a href="#">Category 2</a></li>
+                <li><a href="#">Category 3</a></li>
+            </ul>
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2024 WikiHub. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
